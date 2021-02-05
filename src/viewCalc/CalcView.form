@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="viewCalc.CalcView">
+  <grid id="27dc6" binding="CalcPanel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="595" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="400" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="32b76" class="javax.swing.JButton" binding="btnSomar">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Somar"/>
+        </properties>
+      </component>
+      <component id="63e14" class="javax.swing.JLabel" binding="labelSNumber">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Segundo Numero"/>
+        </properties>
+      </component>
+      <component id="e042f" class="javax.swing.JLabel" binding="labelFNumber">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Primeiro numero"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="62344" class="javax.swing.JButton" binding="btnSubtrair">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Subtrair"/>
+        </properties>
+      </component>
+      <component id="6c6a9" class="javax.swing.JButton" binding="btnDividir">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Dividir"/>
+        </properties>
+      </component>
+      <component id="beacd" class="javax.swing.JButton" binding="btnMultiplicar">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Multiplicar"/>
+        </properties>
+      </component>
+      <component id="2c570" class="javax.swing.JButton" binding="botaoDesativado">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Resetar"/>
+        </properties>
+      </component>
+      <component id="b233d" class="javax.swing.JTextField" binding="fieldSNumber">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dragEnabled value="true"/>
+        </properties>
+      </component>
+      <component id="4fbb5" class="javax.swing.JTextField" binding="fieldFNumber">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="10"/>
+        </properties>
+      </component>
+      <component id="c6ab5" class="javax.swing.JLabel" binding="labelResult">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Arial Black" size="26"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
